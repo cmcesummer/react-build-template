@@ -31,7 +31,7 @@ npm run build --report
 ```bash
 9.10  
   完成了基本改善，可以跑起来。
-  添加了'classnames'包，增加了className友好度，可以动态处理 classNames。
+  添加了 [classnames](https://www.npmjs.com/package/classnames) 包，增加了className友好度，可以动态处理 className。
   TODO: 研究下style css less scss的问题，看看react的样式应该怎么写，是否需要loader之类的，
         以及是否存在全局污染问题。
 ```
