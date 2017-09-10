@@ -29,8 +29,8 @@ npm run build --report
 
 ## changeLog
 - 9.10  
-  完成了基本改善，可以跑起来。
-  添加了 [classnames](https://www.npmjs.com/package/classnames) 包，增加了`className`友好度，可以动态处理 className。
+  完成了基本改善，可以跑起来。  
+  添加了 [classnames](https://www.npmjs.com/package/classnames) 包，增加了`className`友好度，可以动态处理 className。  
   TODO: 研究下`style css less scss`的问题，看看react的样式应该怎么写，是否需要loader之类的，
         以及是否存在全局污染问题。
 
