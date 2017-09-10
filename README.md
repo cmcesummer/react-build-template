@@ -30,8 +30,10 @@ npm run build --report
 ## changeLog
 ```bash
 9.10  
-  完成了基本改善，可以跑起来.
-  TODO: 研究下style css 的问题，看看react的样式应该怎么写，是否需要loader之类的。
+  完成了基本改善，可以跑起来。
+  添加了'classnames'包，增加了className友好度，可以动态处理 classNames。
+  TODO: 研究下style css less scss的问题，看看react的样式应该怎么写，是否需要loader之类的，
+        以及是否存在全局污染问题。
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
