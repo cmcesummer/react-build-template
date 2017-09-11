@@ -28,6 +28,14 @@ npm run build --report
 ```
 
 ## changeLog
+- 9.11  
+  研究了下这个utils里的样式loader，发现了 [npm extract-text-webpack-plugin](https://www.npmjs.com/package/extract-text-webpack-plugin) ,主要是为了抽离css样式,防止将样式打包在js中引起页面样式加载错乱的现象  
+  ```
+  use:指需要什么样的loader去编译文件,这里由于源文件是.css所以选择css-loader  
+  fallback:编译后用什么loader来提取css文件  
+  publicfile:用来覆盖项目路径,生成该css文件的文件路径  
+  ```
+  todo: 写例子测试一下
 - 9.10  
   完成了基本改善，可以跑起来。  
   添加了 [classnames](https://www.npmjs.com/package/classnames) 包，增加了`className`友好度，可以动态处理 className。  
