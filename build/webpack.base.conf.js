@@ -20,7 +20,7 @@ module.exports = {
       : config.dev.assetsPublicPath
   },
   resolve: {
-    extensions: ['', '.js', 'jsx', '.json'],
+    extensions: ['.js', 'jsx', '.json'],
     alias: {
       '@': resolve('src'),
     }

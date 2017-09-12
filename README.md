@@ -28,6 +28,8 @@ npm run build --report
 ```
 
 ## changeLog
+- 9.12
+  
 - 9.11  
   研究了下这个utils里的样式loader，发现了 [npm extract-text-webpack-plugin](https://www.npmjs.com/package/extract-text-webpack-plugin) ,主要是为了抽离css样式,防止将样式打包在js中引起页面样式加载错乱的现象  
   ```

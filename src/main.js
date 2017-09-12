@@ -5,7 +5,7 @@ import '@/assets/css/les.less'
 class Root extends Component {
   render() {
     return <div className="test">
-      <span className="demo">2121</span>
+      <span className="demo">wwww</span>
     </div>
   }
 }
