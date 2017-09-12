@@ -28,7 +28,7 @@ npm run build --report
 ```
 
 ## changeLog
-- 9.12
+- 9.12  
   今天只解决了一个坑，webpack的resolve.extensions看网上别人多了个''空，编译报错，webpack2不需要这个。引入了less，但是好像没有执行。
   todo:看看为啥没有执行，没有编译less。
 - 9.11  
