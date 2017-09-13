@@ -4,8 +4,11 @@ import '@/assets/css/les.less'
 
 class Root extends Component {
   render() {
-    return <div className="test">
-      <span className="demo">wwww</span>
+    const styles = {
+      color: 'white'
+    }
+    return <div className="test test2">
+      <span className="demo demo2" style={styles}>wwww</span>
     </div>
   }
 }
