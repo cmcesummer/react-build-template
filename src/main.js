@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {render} from 'react-dom'
 import '@/assets/css/les.less'
+// import '@/assets/css/les.css'
 
 class Root extends Component {
   render() {
@@ -8,7 +9,7 @@ class Root extends Component {
       color: 'white'
     }
     return <div className="test test2">
-      <span className="demo demo2" style={styles}>wwww</span>
+      <span className="demo demo2" >wwww</span>
     </div>
   }
 }

@@ -33,6 +33,9 @@ npm run build --report
   [css-modules](https://www.npmjs.com/package/react-css-modules),还要验证一下 classnames 结合 css-modules的使用，css变量。  
   todo:解决一下dev不能编译的问题，能不能改一下utils中的cssloader相关模块。  
 
+  解决dev引入、编译less/css的问题，解决`autoprefixer`自动补全的坑。vue-loader坑了我。   
+  TODO：看一下`css-modules`的一系列问题   
+
 - 9.12  
   今天只解决了一个坑，webpack的resolve.extensions看网上别人多了个''空，编译报错，webpack2不需要这个。引入了less，但是好像没有执行。  
   todo:看看为啥没有执行，没有编译less。
