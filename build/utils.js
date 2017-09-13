@@ -31,7 +31,7 @@ exports.cssLoaders = function (options) {
     }
   }
 
-  // generate loader string to be used with extract text plugin
+  //添加loader的函数
   function generateLoaders (loader, loaderOptions) {
     var loaders = [cssLoader, postcssLoader]
     if (loader) {
@@ -42,9 +42,7 @@ exports.cssLoaders = function (options) {
         })
       })
     }
-
-    // Extract CSS when that option is specified
-    // (which is the case during production build)
+    //提取不加style,加style不提取
     if (options.extract) {
       return ExtractTextPlugin.extract({
         use: loaders,
@@ -56,7 +54,6 @@ exports.cssLoaders = function (options) {
     }
   }
 
-  // https://vue-loader.vuejs.org/en/configurations/extract-css.html
   return {
     css: generateLoaders(),
     // postcss: generateLoaders('postcss'),
@@ -68,7 +65,7 @@ exports.cssLoaders = function (options) {
   }
 }
 
-// Generate loaders for standalone style files (outside of .vue)
+// 添加在module.rules
 exports.styleLoaders = function (options) {
   var output = []
   var loaders = exports.cssLoaders(options)

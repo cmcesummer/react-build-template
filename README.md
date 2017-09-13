@@ -55,4 +55,3 @@ npm run build --report
   TODO: 研究下`style css less scss`的问题，看看react的样式应该怎么写，是否需要loader之类的，  
   　　　以及是否存在全局污染问题。
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
