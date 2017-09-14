@@ -28,17 +28,21 @@ npm run build --report
 ```
 
 ## changeLog
+- 9.14
+  写了个小组件试了下可以。
+  todo: 看一下路由的使用  `react-router 4.0+` `react-router-dom`
+
 - 9.13  
   打包后css正常编译，但是dev模式下不能正常引入。   
   [css-modules](https://www.npmjs.com/package/react-css-modules),还要验证一下 classnames 结合 css-modules的使用，css变量。  
   todo:解决一下dev不能编译的问题，能不能改一下utils中的cssloader相关模块。  
 
   解决dev引入、编译less/css的问题，解决`autoprefixer`自动补全的坑。vue-loader坑了我。   
-  TODO：看一下`css-modules`的一系列问题   
+  TODO：__看一下`css-modules`的一系列问题__  ----------------  暂时推迟
 
 - 9.12  
   今天只解决了一个坑，webpack的resolve.extensions看网上别人多了个''空，编译报错，webpack2不需要这个。引入了less，但是好像没有执行。  
-  todo:看看为啥没有执行，没有编译less。
+  todo:看看为啥没有执行，没有编译less。 
 
 - 9.11  
   研究了下这个utils里的样式loader，发现了 [npm extract-text-webpack-plugin](https://www.npmjs.com/package/extract-text-webpack-plugin) ,主要是为了抽离css样式,防止将样式打包在js中引起页面样式加载错乱的现象  

@@ -1,17 +1,6 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {render} from 'react-dom'
-import '@/assets/css/les.less'
-// import '@/assets/css/les.css'
+import Hello from '@/components/Hello/Hello'
 
-class Root extends Component {
-  render() {
-    const styles = {
-      color: 'white'
-    }
-    return <div className="test test2">
-      <span className="demo demo2" >wwww</span>
-    </div>
-  }
-}
 
-render(<Root/>, document.getElementById('app'))
+render(<Hello />, document.getElementById('app'))
