@@ -11,12 +11,8 @@ export default class Hello extends Component {
   }
 
   changeName() {
-    this.state.name === '1' ? 
     this.setState({
-      name: '2'
-    }) : 
-    this.setState({
-      name: '1'
+      name: this.state.name === '1' ? '2' : '1'
     })
   }
 
