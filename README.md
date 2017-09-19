@@ -28,6 +28,11 @@ npm run build --report
 ```
 
 ## changeLog
+- 9.19  
+  [router参考1](https://github.com/brickspert/blog/issues/1)  
+  [router参考2](https://github.com/xiaotuni/react-webpack-demo)  
+  9.21之前弄好router  
+
 - 9.14
   写了个小组件试了下可以。
   todo: 看一下路由的使用  `react-router 4.0+` `react-router-dom`
