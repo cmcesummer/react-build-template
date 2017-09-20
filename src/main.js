@@ -1,7 +1,12 @@
 import React from 'react';
 import {render} from 'react-dom'
 import Hello from '@/components/Hello/Hello'
+import {BrowserRouter} from 'react-router-dom';
 
 
-
-render(<Hello />, document.getElementById('app'))
+render(
+  <BrowserRouter>
+    <Hello />
+  </BrowserRouter>, 
+  document.getElementById('app')
+)
