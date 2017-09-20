@@ -28,6 +28,11 @@ npm run build --report
 ```
 
 ## changeLog
+- 9.20  
+  router的history模式在本地dev调试时是通过 [connect-history-api-fallback](https://www.npmjs.com/package/connect-history-api-fallback) 来进行服务端放开路由处理的   
+  使用history需要后台处理或者nginx处理 ： [vue router history 处理文档](https://router.vuejs.org/zh-cn/essentials/history-mode.html) 可以参考下   
+  
+
 - 9.19  
   [router参考1](https://github.com/brickspert/blog/issues/1)  
   [router参考2](https://github.com/xiaotuni/react-webpack-demo)  
