@@ -1,12 +1,12 @@
 import React from 'react';
 import {render} from 'react-dom'
-import Hello from '@/components/Hello/Hello'
+import App from './App'
 import {BrowserRouter} from 'react-router-dom';
 
 
 render(
   <BrowserRouter>
-    <Hello />
+    <App />
   </BrowserRouter>, 
   document.getElementById('app')
 )
