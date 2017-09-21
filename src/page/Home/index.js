@@ -1,26 +1,25 @@
 import React, {Component} from 'react'
-// import {browserHistory } from 'react-router-dom'
+import {history  } from 'react-router-dom'
 
 export default class Home extends Component {
   constructor(props) {
     super(props);
-    contextTypes: {
-      router: React.PropTypes.object
-    }
+    
   }
 
   
 
   goRoute() {
-    this.context.router.push('/roat')
-    // browserHistory.push('/roat')
+     
+    this.props.history.push('/roat');
+    console.log(this);
   }
 
   render() {
     return (
       <div className="home_index">
      
-        <span onClick={this.goRoute}>home_index</span>
+        <span onClick={this.goRoute.bind(this)}>home_index</span>
           
       </div>
     )

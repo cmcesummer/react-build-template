@@ -31,7 +31,8 @@ npm run build --report
 - 9.21  
   路由基本可以正常使用。  
   react-router4 把路由route看做组件，嵌套在页面中也就可以。   
-  todo: 路由跳转非`<Link>`方式  
+  路由跳转如果使用了`BrowerRoute`则直接使用this.props.history.push(path)即可  
+  todo: 看一下路由的挂载钩子 想去哪 从哪来 等属性  
 
 - 9.20  
   router的history模式在本地dev调试时是通过 [connect-history-api-fallback](https://www.npmjs.com/package/connect-history-api-fallback) 来进行服务端放开路由处理的   
