@@ -29,8 +29,10 @@ npm run build --report
 
 ## changeLog
 - 9.21  
-  react-router4 把路由route看做组件，嵌套在页面中也就可以  
-  
+  路由基本可以正常使用。  
+  react-router4 把路由route看做组件，嵌套在页面中也就可以。   
+  todo: 路由跳转非`<Link>`方式  
+
 - 9.20  
   router的history模式在本地dev调试时是通过 [connect-history-api-fallback](https://www.npmjs.com/package/connect-history-api-fallback) 来进行服务端放开路由处理的   
   使用history需要后台处理或者nginx处理 ： [vue router history 处理文档](https://router.vuejs.org/zh-cn/essentials/history-mode.html) 可以参考下   
