@@ -11,7 +11,7 @@ export default class Home extends Component {
 
   goRoute() {
      
-    this.props.history.push('/roat');
+    this.props.history.push({pathname:'/roat/2',search: '?sort=name',state: { price: 18 }});
     console.log(this);
   }
 

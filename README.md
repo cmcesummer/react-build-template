@@ -28,6 +28,10 @@ npm run build --report
 ```
 
 ## changeLog
+- 9.22  
+  现在路由钩子出问题了，暂时没找到能用的 react-router-dom 的api 真的是尴尬  
+  todo:打算周末看下iscroll   
+  
 - 9.21  
   路由基本可以正常使用。  
   react-router4 把路由route看做组件，嵌套在页面中也就可以。   
