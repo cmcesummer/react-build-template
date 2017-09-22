@@ -32,6 +32,7 @@ npm run build --report
   路由基本可以正常使用。  
   react-router4 把路由route看做组件，嵌套在页面中也就可以。   
   路由跳转如果使用了`BrowerRoute`则直接使用this.props.history.push(path)即可  
+  为什么我在公司电脑提交的代码没有记录，但是还能提交上。   
   todo: 看一下路由的挂载钩子 想去哪 从哪来 等属性  
 
 - 9.20  
